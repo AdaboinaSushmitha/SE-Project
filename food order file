@@ -37,9 +37,5 @@ class Food implements Serializable
 		System.out.printlin("price="+price);
 	}
 
-	public int Food(int i, int j) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 }
 
