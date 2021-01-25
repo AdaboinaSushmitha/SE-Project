@@ -33,6 +33,8 @@ class Food implements Serializable
 
 	public Food() {
 		// TODO Auto-generated constructor stub
+		price=Food(itemno,quantity);
+		System.out.printlin("price="+price);
 	}
 
 	public int Food(int i, int j) {
@@ -40,3 +42,4 @@ class Food implements Serializable
 		return 0;
 	}
 }
+
